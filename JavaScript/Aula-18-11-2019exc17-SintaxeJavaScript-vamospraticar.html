@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>A Palavra reservada "var" cria variaveis.</h2>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        var x, y; //declaração de variaveis, separadas por virgula na mesma linha.
+        x = 5 + 6 /* comenta BLOCO DE TEXTO */
+        y = x * 10;
+        var nome = "Meu texto JS", temBike = false;
+        document.getElementById("demo").innerHTML = y;
+        document.getElementById("demo").innerHTML = nome;
+        document.getElementById("demo").innerHTML = "O cliente tem Bike? <br> Responda: " + temBike;
+        //texto concatenado com o valor da variavel
+    </script>
+</body>
+</html>
